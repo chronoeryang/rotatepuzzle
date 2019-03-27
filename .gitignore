@@ -1,0 +1,40 @@
+# mac files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Built application files
+build/
+/*/build/
+/build
+ReleaseApks/
+
+*.iml
+.gradle/
+/local.properties
+
+/.idea
+/.idea/workspace.xml
+/.idea/libraries
+
+/captures
+.externalNativeBuild
+
+*.iws
+*.ipr
+*~
+*.swp
+*.log
+release-build.sh

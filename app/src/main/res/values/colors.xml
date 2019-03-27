@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alpha_black">#66000000</color>
+    <color name="main_1">#FF000000</color>
+    <color name="main_2">#FFF94D18</color>
+
+    <color name="actionbar_start">@color/main_1</color>
+    <color name="actionbar_end">@color/main_2</color>
+
+    <color name="app_tab_strip">#FFFE2E2E</color>
+
+    <color name="border">#FFAAAAAA</color>
+
+    <color name="tab_sale">#FFFB8C00</color>
+    <color name="tab_wanted">#FFE60012</color>
+    <color name="tab_mypost">#FF000000</color>
+
+    <color name="type_sale">@color/main_1</color>
+    <color name="bg_button_gamepad">@color/main_2</color>
+
+    <color name="refresh_color_1">@color/main_1</color>
+    <color name="refresh_color_5">@color/main_2</color>
+
+    <color name="statusbar_bg">@color/main_1</color>
+    <color name="actionbar_title">#FFFFFFFF</color>
+
+    <color name="bg_tab">#FFFFFFFF</color>
+    <color name="bg_page_default">#FF333333</color>
+    <color name="bg_price">#FFF46B42</color>
+    <color name="bg_logout">#FFDDDDDD</color>
+
+    <color name="font_black">#FF000000</color>
+    <color name="font_white">#FFFFFFFF</color>
+    <color name="font_gray">#FFCCCCCC</color>
+    <color name="font_gray_dark">#FF888888</color>
+
+    <color name="cursor">@color/main_1</color>
+
+    <color name="about_text">#99000000</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rotate Puzzle</string>
+
+    <string name="game_next_tile">Next</string>
+
+    <string name="game_score">SCORE</string>
+    <string name="game_level">Level: %1$s</string>
+    <string name="game_line">Line: %1$s</string>
+    <string name="game_combo">Combo: %1$s</string>
+
+    <string name="game_pause">Leave Game?</string>
+    <string name="game_over">Game Over</string>
+
+    <string name="main_start">START</string>
+</resources>

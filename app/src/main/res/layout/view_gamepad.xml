@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/bg_page_default"
+    android:padding="@dimen/layout_margin_8dp"
+    tools:context=".activity.base.BaseActivity">
+
+    <ImageView
+        android:id="@+id/view_gamepad_button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gamepad_left"
+        android:layout_margin="@dimen/layout_margin_4dp"
+        android:background="@drawable/bg_circle_gamepad"
+        android:padding="@dimen/layout_margin_4dp"
+        />
+
+    <ImageView
+        android:id="@+id/view_gamepad_button_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gamepad_down"
+        android:layout_marginTop="@dimen/layout_margin_4dp"
+        android:layout_marginBottom="@dimen/layout_margin_4dp"
+        android:layout_marginRight="@dimen/layout_margin_24dp"
+        android:layout_marginLeft="@dimen/layout_margin_24dp"
+        android:background="@drawable/bg_circle_gamepad"
+        android:padding="@dimen/layout_margin_4dp"
+        />
+
+    <ImageView
+        android:id="@+id/view_gamepad_button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gamepad_right"
+        android:layout_margin="@dimen/layout_margin_4dp"
+        android:background="@drawable/bg_circle_gamepad"
+        android:padding="@dimen/layout_margin_4dp"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/view_gamepad_button_downdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gamepad_downdown"
+        android:layout_margin="@dimen/layout_margin_4dp"
+        android:background="@drawable/bg_circle_gamepad"
+        android:visibility="gone"
+        android:padding="@dimen/layout_margin_4dp"
+        />
+
+    <ImageView
+        android:id="@+id/view_gamepad_button_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gamepad_rotate"
+        android:layout_margin="@dimen/layout_margin_4dp"
+        android:background="@drawable/bg_circle_gamepad"
+        android:padding="@dimen/layout_margin_4dp"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
