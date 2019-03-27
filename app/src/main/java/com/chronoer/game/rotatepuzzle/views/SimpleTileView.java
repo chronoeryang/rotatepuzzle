@@ -183,12 +183,18 @@ public class SimpleTileView extends View{
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        mWidth = getWidth();
-        mHeight = getHeight();
+//        mWidth = getWidth();
+//        mHeight = getHeight();
+        mWidth = getMeasuredWidth();
+        mHeight = getMeasuredHeight();
 
         mTileWidth = mWidth / SIMPLE_WIDTH;
         mTileHeight = mHeight / SIMPLE_HEIGHT;
+
+        invalidate();
     }
+
+
 
     @Override
     protected void onDraw(Canvas canvas) {
