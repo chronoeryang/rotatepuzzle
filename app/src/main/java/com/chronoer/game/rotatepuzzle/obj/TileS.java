@@ -37,19 +37,19 @@ public class TileS extends Tile{
          * */
         Point[] points = new Point[4];
 
-        points[0] = new Point(2, 1);
-        points[1] = new Point(3, 1);
-        points[2] = new Point(3, 0);
-        points[3] = new Point(4, 0);
+        points[0] = new Point(3, 1);
+        points[1] = new Point(4, 1);
+        points[2] = new Point(4, 0);
+        points[3] = new Point(5, 0);
 
         setCurPoints(points);
 
         Point[] lastPoints = new Point[4];
 
-        lastPoints[0] = new Point(2, 1);
-        lastPoints[1] = new Point(3, 1);
-        lastPoints[2] = new Point(3, 0);
-        lastPoints[3] = new Point(4, 0);
+        lastPoints[0] = new Point(3, 1);
+        lastPoints[1] = new Point(4, 1);
+        lastPoints[2] = new Point(4, 0);
+        lastPoints[3] = new Point(5, 0);
 
         setLastPoints(lastPoints);
     }
